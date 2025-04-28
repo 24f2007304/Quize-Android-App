@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BajrangElectricStore" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Remove text selection handles -->
+        <item name="android:textSelectHandle">@null</item>
+        <item name="android:textSelectHandleLeft">@null</item>
+        <item name="android:textSelectHandleRight">@null</item>
+
+        <!-- Change text selection highlight color -->
+        <item name="android:textColorHighlight">@android:color/transparent</item>
+
+        <!-- Change cursor/control color -->
+        <item name="android:colorControlActivated">@color/boxfill</item>
+    </style>
+</resources>

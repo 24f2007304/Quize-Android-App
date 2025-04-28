@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551900248077",
+    "project_id": "bajrang-electric-store",
+    "storage_bucket": "bajrang-electric-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551900248077:android:452ccd7c89633382377d44",
+        "android_client_info": {
+          "package_name": "com.example.bajrangelectricstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551900248077-r7m3if1e143ttnadeiuq0o3cpqs6524h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYEEabX8W-Grb6IHiBwNNvF_qxQRzEir8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551900248077-r7m3if1e143ttnadeiuq0o3cpqs6524h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

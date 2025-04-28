@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Welcome</string>
+    <string name="welcome">Welcome!</string>
+    <string name="Bajrang"> the World of  Quizzes! </string>
+    <string name="small">|  IITBS  |  CLASS12  |  Competitive Exam |  Rajhansh  |  </string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="enter_the_mobile_number">Enter the Mobile Number</string>
+    <string name="Condtions"> By Continuing you agree to our Tearm of Use and Privacy Policy </string>
+    <string name="send_otp">LOGIN </string>
+    <string name="if_you_are_new_user_for_kei_connect_click_here">If you are new user then?  Click Here</string>
+    <string name="default_web_client_id">551900248077-r7m3if1e143ttnadeiuq0o3cpqs6524h.apps.googleusercontent.com</string>
+
+
+    <string name="create_account">Create Account</string>
+</resources>

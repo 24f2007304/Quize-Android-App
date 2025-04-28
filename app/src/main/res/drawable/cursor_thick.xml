@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Visible cursor state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/your_cursor_color" />
+            <size android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Transparent state for blinking -->
+    <item android:drawable="@android:color/transparent"/>
+
+</layer-list>
+
