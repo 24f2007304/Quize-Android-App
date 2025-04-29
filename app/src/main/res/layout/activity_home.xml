@@ -7,11 +7,33 @@
     android:layout_height="match_parent"
     tools:context=".home_activity">
 
-    <Button
-        android:id="@+id/signOut"
-        android:layout_width="132dp"
-        android:layout_height="66dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="245dp" />
+    <fragment
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/navigation" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="421dp"
+        android:layout_height="72dp"
+        android:background="@color/white"
+
+
+        app:elevation="8dp"
+        app:itemIconTint="@color/black"
+        app:itemTextAppearanceActive="@style/BottomNavLabelStyleActive"
+        app:itemTextAppearanceInactive="@style/BottomNavLabelStyleInactive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu" />
+
+    <!--    In a BottomNavigationView, there are usually multiple icons (Home, Quiz, Notes, etc.). At any time, one is selected (active) and the others are not selected (inactive).-->
 </androidx.constraintlayout.widget.ConstraintLayout>

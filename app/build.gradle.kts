@@ -78,6 +78,12 @@ dependencies {
 
     // Google ID SDK (optional)
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
+    // Jetpack Navigation for Compose (compatible with Compose BOM 2024.04.01)
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+
+// Optional: If you're also using Fragments or XML-based navigation
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
 
     // Testing dependencies
     testImplementation(libs.junit)

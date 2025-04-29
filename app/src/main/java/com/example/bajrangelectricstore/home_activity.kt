@@ -6,7 +6,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.bajrangelectricstore.databinding.ActivityHomeBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.ktx.Firebase
 
@@ -21,16 +25,13 @@ class home_activity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        var NavController = findNavController(R.id.fragmentContainerView)
+        var bottomnav = findViewById<BottomNavigationView>(R.id.bottomNavigation)
+        bottomnav.setupWithNavController(NavController)
 
-        auth = FirebaseAuth.getInstance()
 
-        binding.signOut.setOnClickListener {
-            auth.signOut()
 
-            startActivity(Intent(this, MainActivity::class.java))
-            finish()
 
-        }
 
         }
     }
