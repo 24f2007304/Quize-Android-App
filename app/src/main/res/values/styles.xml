@@ -26,4 +26,9 @@
         <item name="android:textColor">@color/your_custom_blue</item>
         <item name="android:textStyle">normal</item>
     </style>
+    <style name="CustomSearchViewTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+<!--        <item name="android:textColorHint">@color/your_custom_blue</item>-->
+    </style>
+
+
 </resources>

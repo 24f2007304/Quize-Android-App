@@ -16,7 +16,7 @@
     <color name="colorAccent">#FF5722</color>
     <color name="password">#e74c3c </color>
     <color name="useiconr">#85c1e9</color><!-- Orange for buttons or highlights -->
-
-    <!-- Text colors -->
+    <color name="your_background_color">#a9cce3</color><!-- Text colors -->
+     <color name="youe_hint_color">#2471a3</color>
 
 </resources>
